@@ -1,13 +1,13 @@
 _This project has been created as part of the 42 curriculum by cabboud._
 
-# Python Module 02: Garden Guardian - Exception Handling for Smart Agriculture
+# Python Module 02: Garden Guardian
 
-## Exception Handling Syntax
+## How exception handeling works
 
 ```python
 try:
     # risky code
-except SomeException as e:
+except Exception (special type or base) as e:
     # handle error
 else:
     # runs only if no exception
@@ -15,15 +15,15 @@ finally:
     # always runs, even on return
 ```
 
-## Exception Cheat Sheet
+## Some Build-in Exception 
 
-| Exception           | Trigger                   | Example             |
-| ------------------- | ------------------------- | ------------------- |
-| `ValueError`        | Right type, wrong content | `int("abc")`        |
-| `TypeError`         | Wrong type for operation  | `"a" + 1`           |
-| `ZeroDivisionError` | Divide by zero            | `5 / 0`             |
-| `FileNotFoundError` | File doesn't exist        | `open("ghost.txt")` |
-| `Exception`         | Catch-all (last resort)   | —                   |
+| Exception           | Trigger                   | Example               |
+| ------------------- | ------------------------- | --------------------- |
+| `ValueError`        | Right type, wrong content | `int("abc")`          |
+| `TypeError`         | Wrong type for operation  | `"x" + 1`             |
+| `ZeroDivisionError` | Divide by zero            | `1 / 0`               |
+| `FileNotFoundError` | File doesn't exist        | `open("nowhere.txt")` |
+| `Exception`         | Catch-all (last resort)   | —                     |
 
 ## Exercises Overview
 
