@@ -23,9 +23,10 @@ The goal is to build a solid foundation in Python syntax and semantics, writing 
 pip3 install flake8
 pip3 install mypy
 ```
-to test 
-flake8 
-mypy .
+
+To test:
+flake8 (in the directory that contains all the exs)
+mypy . (in the directory that contains all the exs)
 ### Run an exercise
 
 Each exercise is a standalone Python file containing a single function. To test them, use the provided `main.py` helper:

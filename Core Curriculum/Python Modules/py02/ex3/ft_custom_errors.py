@@ -63,6 +63,10 @@ def test_custom_errors() -> None:
     except GardenError as e:
         print(f"Caught GardenError: {e}")
 
+    try:
+        raise PlantError()
+    except PlantError as e:
+        print(f"Caught PlantError: {e}")
     print("\nAll custom error types work correctly!")
 
 
