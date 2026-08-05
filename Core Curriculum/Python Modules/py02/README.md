@@ -1,13 +1,23 @@
 _This project has been created as part of the 42 curriculum by cabboud._
 
+<<<<<<< HEAD
 # Python Module 02: Garden Guardian - Exception Handling for Smart Agriculture
 
 ## Exception Handling Syntax
+=======
+# Python Module 02: Garden Guardian
+
+## How exception handeling works
+>>>>>>> 5ef47401765e86b32213c5b3370184382dc653c9
 
 ```python
 try:
     # risky code
+<<<<<<< HEAD
 except SomeException as e:
+=======
+except Exception (special type or base) as e:
+>>>>>>> 5ef47401765e86b32213c5b3370184382dc653c9
     # handle error
 else:
     # runs only if no exception
@@ -15,6 +25,7 @@ finally:
     # always runs, even on return
 ```
 
+<<<<<<< HEAD
 ## Exception Cheat Sheet
 
 | Exception           | Trigger                   | Example             |
@@ -24,6 +35,17 @@ finally:
 | `ZeroDivisionError` | Divide by zero            | `5 / 0`             |
 | `FileNotFoundError` | File doesn't exist        | `open("ghost.txt")` |
 | `Exception`         | Catch-all (last resort)   | —                   |
+=======
+## Some Build-in Exception 
+
+| Exception           | Trigger                   | Example               |
+| ------------------- | ------------------------- | --------------------- |
+| `ValueError`        | Right type, wrong content | `int("abc")`          |
+| `TypeError`         | Wrong type for operation  | `"x" + 1`             |
+| `ZeroDivisionError` | Divide by zero            | `1 / 0`               |
+| `FileNotFoundError` | File doesn't exist        | `open("nowhere.txt")` |
+| `Exception`         | Catch-all (last resort)   | —                     |
+>>>>>>> 5ef47401765e86b32213c5b3370184382dc653c9
 
 ## Exercises Overview
 
