@@ -17,7 +17,8 @@ def main() -> None:
                 print(f"Invalid parameter: '{sys.argv[i]}'")
                 invalid = True
         if invalid:
-            print("No scores provided. Usage: python3 ft_score_analytics.py <score1> <score2> ...")
+            print("No scores provided. Usage: python3 ft_score_analytics.py"
+                  "<score1> <score2> ...")
         else:
             print("Scores processed: [", end="")
             for j in range(1, x-1):
