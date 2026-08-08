@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by nmina.*
+*This project has been created as part of the 42 curriculum by cabboud.*
 
 # Python Module 03: Data Quest
 
