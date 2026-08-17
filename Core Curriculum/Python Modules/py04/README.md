@@ -60,9 +60,9 @@ mypy .
 **The project teaches file I/O → error handling → standard streams → buffering → context managers, while progressively building a safe file-archive system.**
 
 ### References
-https://docs.python.org/3/tutorial/inputoutput.html
-https://docs.python.org/3/library/functions.html#open
-https://docs.python.org/3/library/sys.html
-https://docs.python.org/3/library/io.html
-https://docs.python.org/3/reference/compound_stmts.html#with
+* https://docs.python.org/3/tutorial/inputoutput.html
+* https://docs.python.org/3/library/functions.html#open
+* https://docs.python.org/3/library/sys.html
+* https://docs.python.org/3/library/io.html
+* https://docs.python.org/3/reference/compound_stmts.html#with
 
