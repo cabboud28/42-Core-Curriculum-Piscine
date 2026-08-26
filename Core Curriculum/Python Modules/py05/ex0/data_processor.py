@@ -144,3 +144,10 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# Polymorphism is a programming concept that allows objects of different classes to be treated as objects of a common superclass. 
+# In this code, polymorphism is demonstrated through the use of the DataProcessor abstract base class and its subclasses 
+# (NumericProcessor, TextProcessor, and LogProcessor). 
+# Each subclass implements the validate and ingest methods differently, allowing them to handle different types of data 
+# (numeric, text, and log data) while sharing a common interface defined by the DataProcessor class. 
+# This enables the DataStream class to work with any DataProcessor subclass without needing to know the specific implementation details of each processor.
