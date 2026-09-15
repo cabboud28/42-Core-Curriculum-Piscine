@@ -34,7 +34,7 @@ def battle(opponents: List[Opponent]) -> None:
     for creature, strategy in creatures:
         if not strategy.is_valid(creature):
             raise InvalidStrategyError(
-                f"Invalid Creature '{creature.name}' for this "
+                f"Invalid Creature '{creature._name}' for this "
                 f"{strategy_label(strategy)} strategy"
             )
         print(strategy.act(creature))
